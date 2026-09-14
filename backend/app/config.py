@@ -13,6 +13,7 @@ class Settings(BaseModel):
     postgres_host: str = "localhost"
     postgres_port: int = 5432
     cors_allowed_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    cors_allowed_origin_regex: str = ""
 
 
 @lru_cache
@@ -31,4 +32,5 @@ def get_settings() -> Settings:
         postgres_host=os.getenv("POSTGRES_HOST", "localhost"),
         postgres_port=int(os.getenv("POSTGRES_PORT", "5432")),
         cors_allowed_origins=os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173"),
+        cors_allowed_origin_regex=os.getenv("CORS_ALLOWED_ORIGIN_REGEX", ""),
     )

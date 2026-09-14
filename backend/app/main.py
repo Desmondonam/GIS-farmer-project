@@ -35,6 +35,10 @@ origins = (
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
+    # Covers Vercel's per-deploy preview subdomains
+    # (agri-intelligence-frontend-<hash>-<team>.vercel.app) alongside the
+    # exact production origins above, without resorting to "*".
+    allow_origin_regex=settings.cors_allowed_origin_regex or None,
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],

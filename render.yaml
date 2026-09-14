@@ -1,7 +1,7 @@
 services:
   - type: web
     name: agri-intelligence-api
-    env: python
+    runtime: python
     plan: free
     region: oregon
     buildCommand: pip install -r backend/requirements.txt
@@ -17,4 +17,6 @@ services:
       - key: LIVE_DATA_MODE
         value: "false"
       - key: CORS_ALLOWED_ORIGINS
-        value: "*"
+        value: "https://agri-intelligence-frontend.vercel.app"
+      - key: CORS_ALLOWED_ORIGIN_REGEX
+        value: "https://agri-intelligence-frontend.*\\.vercel\\.app"
