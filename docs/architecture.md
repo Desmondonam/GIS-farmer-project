@@ -53,6 +53,23 @@ Data sources -> ingestion -> raw lake -> validation -> transformation -> curated
 
 The MVP is designed for local Docker development, with support for demo mode and optional live API integration through environment variables.
 
+## v2: what's implemented today
+
+- `backend/app/data/generate_demo_data.py` produces the synthetic operational dataset (500
+  farmers, 1,000 farms, 100 tractors, 10,000 bookings) with region-consistent coordinates and
+  NDVI/NDWI signals, written to `data/demo/*.csv`.
+- `backend/app/data/repository.py` is the single data-access seam: it loads those CSVs (cached
+  per-process), and every API route computes its response from real aggregates over them —
+  pagination/filtering, GeoJSON export for the map, monthly time series, region rollups, and a
+  geodesic tractor-recommendation ranking. Swapping this module for one that queries the
+  PostgreSQL/PostGIS schema below is the intended path to `LIVE_DATA_MODE=true`.
+- `frontend/src/pages/*` is a routed, eight-page dashboard (React Router) with paginated tables,
+  Recharts trend/mix charts, and a MapLibre GL map rendering the farm and tractor GeoJSON layers.
+  `frontend/src/theme.ts` centralizes the chart/map color system (validated categorical palette,
+  NDVI sequential ramp, reserved status colors) so identity stays consistent across every view.
+
 ## Next phase
 
-The next step is implementing the repository structure, database schema, and synthetic data generation scripts that power the platform.
+Wire `repository.py` to PostgreSQL/PostGIS for `LIVE_DATA_MODE`, add Sentinel-2 ingestion for real
+NDVI/NDWI instead of the synthetic signal, and add auth/session handling ahead of any multi-tenant
+deployment.

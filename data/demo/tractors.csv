@@ -1,101 +1,101 @@
-tractor_id,owner_id,status,region,capacity_ha_hr,operating_hours
-TR-001,OWN-002,active,Machakos,2.3,162
-TR-002,OWN-003,active,Nakuru,2.6,174
-TR-003,OWN-004,active,Nairobi,2.9,186
-TR-004,OWN-005,active,Embu,3.2,198
-TR-005,OWN-006,idle,Kiambu,3.5,210
-TR-006,OWN-007,active,Machakos,3.8,222
-TR-007,OWN-008,active,Nakuru,4.1,234
-TR-008,OWN-009,active,Nairobi,2.0,246
-TR-009,OWN-010,active,Embu,2.3,258
-TR-010,OWN-011,idle,Kiambu,2.6,270
-TR-011,OWN-012,active,Machakos,2.9,282
-TR-012,OWN-013,active,Nakuru,3.2,294
-TR-013,OWN-014,active,Nairobi,3.5,306
-TR-014,OWN-015,active,Embu,3.8,318
-TR-015,OWN-016,idle,Kiambu,4.1,150
-TR-016,OWN-017,active,Machakos,2.0,162
-TR-017,OWN-018,active,Nakuru,2.3,174
-TR-018,OWN-019,active,Nairobi,2.6,186
-TR-019,OWN-020,active,Embu,2.9,198
-TR-020,OWN-001,idle,Kiambu,3.2,210
-TR-021,OWN-002,active,Machakos,3.5,222
-TR-022,OWN-003,active,Nakuru,3.8,234
-TR-023,OWN-004,active,Nairobi,4.1,246
-TR-024,OWN-005,active,Embu,2.0,258
-TR-025,OWN-006,idle,Kiambu,2.3,270
-TR-026,OWN-007,active,Machakos,2.6,282
-TR-027,OWN-008,active,Nakuru,2.9,294
-TR-028,OWN-009,active,Nairobi,3.2,306
-TR-029,OWN-010,active,Embu,3.5,318
-TR-030,OWN-011,idle,Kiambu,3.8,150
-TR-031,OWN-012,active,Machakos,4.1,162
-TR-032,OWN-013,active,Nakuru,2.0,174
-TR-033,OWN-014,active,Nairobi,2.3,186
-TR-034,OWN-015,active,Embu,2.6,198
-TR-035,OWN-016,idle,Kiambu,2.9,210
-TR-036,OWN-017,active,Machakos,3.2,222
-TR-037,OWN-018,active,Nakuru,3.5,234
-TR-038,OWN-019,active,Nairobi,3.8,246
-TR-039,OWN-020,active,Embu,4.1,258
-TR-040,OWN-001,idle,Kiambu,2.0,270
-TR-041,OWN-002,active,Machakos,2.3,282
-TR-042,OWN-003,active,Nakuru,2.6,294
-TR-043,OWN-004,active,Nairobi,2.9,306
-TR-044,OWN-005,active,Embu,3.2,318
-TR-045,OWN-006,idle,Kiambu,3.5,150
-TR-046,OWN-007,active,Machakos,3.8,162
-TR-047,OWN-008,active,Nakuru,4.1,174
-TR-048,OWN-009,active,Nairobi,2.0,186
-TR-049,OWN-010,active,Embu,2.3,198
-TR-050,OWN-011,idle,Kiambu,2.6,210
-TR-051,OWN-012,active,Machakos,2.9,222
-TR-052,OWN-013,active,Nakuru,3.2,234
-TR-053,OWN-014,active,Nairobi,3.5,246
-TR-054,OWN-015,active,Embu,3.8,258
-TR-055,OWN-016,idle,Kiambu,4.1,270
-TR-056,OWN-017,active,Machakos,2.0,282
-TR-057,OWN-018,active,Nakuru,2.3,294
-TR-058,OWN-019,active,Nairobi,2.6,306
-TR-059,OWN-020,active,Embu,2.9,318
-TR-060,OWN-001,idle,Kiambu,3.2,150
-TR-061,OWN-002,active,Machakos,3.5,162
-TR-062,OWN-003,active,Nakuru,3.8,174
-TR-063,OWN-004,active,Nairobi,4.1,186
-TR-064,OWN-005,active,Embu,2.0,198
-TR-065,OWN-006,idle,Kiambu,2.3,210
-TR-066,OWN-007,active,Machakos,2.6,222
-TR-067,OWN-008,active,Nakuru,2.9,234
-TR-068,OWN-009,active,Nairobi,3.2,246
-TR-069,OWN-010,active,Embu,3.5,258
-TR-070,OWN-011,idle,Kiambu,3.8,270
-TR-071,OWN-012,active,Machakos,4.1,282
-TR-072,OWN-013,active,Nakuru,2.0,294
-TR-073,OWN-014,active,Nairobi,2.3,306
-TR-074,OWN-015,active,Embu,2.6,318
-TR-075,OWN-016,idle,Kiambu,2.9,150
-TR-076,OWN-017,active,Machakos,3.2,162
-TR-077,OWN-018,active,Nakuru,3.5,174
-TR-078,OWN-019,active,Nairobi,3.8,186
-TR-079,OWN-020,active,Embu,4.1,198
-TR-080,OWN-001,idle,Kiambu,2.0,210
-TR-081,OWN-002,active,Machakos,2.3,222
-TR-082,OWN-003,active,Nakuru,2.6,234
-TR-083,OWN-004,active,Nairobi,2.9,246
-TR-084,OWN-005,active,Embu,3.2,258
-TR-085,OWN-006,idle,Kiambu,3.5,270
-TR-086,OWN-007,active,Machakos,3.8,282
-TR-087,OWN-008,active,Nakuru,4.1,294
-TR-088,OWN-009,active,Nairobi,2.0,306
-TR-089,OWN-010,active,Embu,2.3,318
-TR-090,OWN-011,idle,Kiambu,2.6,150
-TR-091,OWN-012,active,Machakos,2.9,162
-TR-092,OWN-013,active,Nakuru,3.2,174
-TR-093,OWN-014,active,Nairobi,3.5,186
-TR-094,OWN-015,active,Embu,3.8,198
-TR-095,OWN-016,idle,Kiambu,4.1,210
-TR-096,OWN-017,active,Machakos,2.0,222
-TR-097,OWN-018,active,Nakuru,2.3,234
-TR-098,OWN-019,active,Nairobi,2.6,246
-TR-099,OWN-020,active,Embu,2.9,258
-TR-100,OWN-001,idle,Kiambu,3.2,270
+tractor_id,owner_id,model,status,region,capacity_ha_hr,operating_hours,lat,lon,last_service_hours_ago
+TR-001,OWN-002,New Holland TT75,active,Machakos,2.3,192.06,-1.24444,37.2265,47
+TR-002,OWN-003,John Deere 5075E,active,Nakuru,2.6,195.72,-0.12225,35.87456,58
+TR-003,OWN-004,Kubota M7060,active,Nairobi,2.9,186.68,-1.36681,36.84948,290
+TR-004,OWN-005,Massey Ferguson 290,idle,Embu,3.2,202.84,-0.71999,37.70546,153
+TR-005,OWN-006,New Holland TT75,maintenance,Kiambu,3.5,237.26,-1.26335,36.77482,271
+TR-006,OWN-007,John Deere 5075E,active,Machakos,3.8,235.78,-1.56821,37.19159,49
+TR-007,OWN-008,Kubota M7060,active,Nakuru,4.1,266.56,-0.02828,36.32823,281
+TR-008,OWN-009,Massey Ferguson 290,active,Nairobi,2.0,254.91,-1.45433,36.89928,184
+TR-009,OWN-010,New Holland TT75,active,Embu,2.3,279.29,-0.68665,37.22161,230
+TR-010,OWN-011,John Deere 5075E,idle,Kiambu,2.6,276.01,-0.94736,36.87932,335
+TR-011,OWN-012,Kubota M7060,maintenance,Machakos,2.9,318.26,-1.23916,37.21357,221
+TR-012,OWN-013,Massey Ferguson 290,active,Nakuru,3.2,322.32,-0.44638,36.13415,388
+TR-013,OWN-014,New Holland TT75,active,Nairobi,3.5,324.54,-1.42953,36.86049,314
+TR-014,OWN-015,John Deere 5075E,active,Embu,3.8,329.52,-0.74103,37.34582,39
+TR-015,OWN-016,Kubota M7060,active,Kiambu,4.1,168.79,-1.20483,37.04936,342
+TR-016,OWN-017,Massey Ferguson 290,idle,Machakos,2.0,191.19,-1.51138,37.45386,87
+TR-017,OWN-018,New Holland TT75,maintenance,Nakuru,2.3,208.33,-0.50281,35.84492,255
+TR-018,OWN-019,John Deere 5075E,active,Nairobi,2.6,217.85,-1.22328,36.66357,274
+TR-019,OWN-020,Kubota M7060,active,Embu,2.9,212.15,-0.67345,37.22609,373
+TR-020,OWN-001,Massey Ferguson 290,active,Kiambu,3.2,213.88,-1.40278,36.68951,284
+TR-021,OWN-002,New Holland TT75,active,Machakos,3.5,229.47,-1.44126,37.02878,46
+TR-022,OWN-003,John Deere 5075E,idle,Nakuru,3.8,252.29,-0.10287,35.81304,366
+TR-023,OWN-004,Kubota M7060,maintenance,Nairobi,4.1,285.52,-1.22846,36.6895,141
+TR-024,OWN-005,Massey Ferguson 290,active,Embu,2.0,297.06,-0.50892,37.37607,341
+TR-025,OWN-006,New Holland TT75,active,Kiambu,2.3,289.35,-1.18886,36.94998,152
+TR-026,OWN-007,John Deere 5075E,active,Machakos,2.6,316.15,-1.34955,37.05272,218
+TR-027,OWN-008,Kubota M7060,active,Nakuru,2.9,295.02,-0.15179,36.24607,301
+TR-028,OWN-009,Massey Ferguson 290,idle,Nairobi,3.2,338.01,-1.4998,36.56592,232
+TR-029,OWN-010,New Holland TT75,maintenance,Embu,3.5,340.57,-0.81091,37.65739,35
+TR-030,OWN-011,John Deere 5075E,active,Kiambu,3.8,172.17,-1.13896,36.67054,158
+TR-031,OWN-012,Kubota M7060,active,Machakos,4.1,167.62,-1.62984,37.30105,254
+TR-032,OWN-013,Massey Ferguson 290,active,Nakuru,2.0,209.82,-0.12678,36.31685,289
+TR-033,OWN-014,New Holland TT75,active,Nairobi,2.3,210.25,-1.15242,36.92282,277
+TR-034,OWN-015,John Deere 5075E,idle,Embu,2.6,216.14,-0.54351,37.5337,178
+TR-035,OWN-016,Kubota M7060,maintenance,Kiambu,2.9,233.49,-1.21657,36.7319,38
+TR-036,OWN-017,Massey Ferguson 290,active,Machakos,3.2,241.77,-1.50269,37.18428,98
+TR-037,OWN-018,New Holland TT75,active,Nakuru,3.5,248.43,-0.34879,36.25352,153
+TR-038,OWN-019,John Deere 5075E,active,Nairobi,3.8,285.2,-1.35455,36.95153,277
+TR-039,OWN-020,Kubota M7060,active,Embu,4.1,269.73,-0.26341,37.24811,211
+TR-040,OWN-001,Massey Ferguson 290,idle,Kiambu,2.0,275.25,-1.00831,36.59322,177
+TR-041,OWN-002,New Holland TT75,maintenance,Machakos,2.3,299.41,-1.64947,37.05862,280
+TR-042,OWN-003,John Deere 5075E,active,Nakuru,2.6,301.7,-0.13825,36.09184,66
+TR-043,OWN-004,Kubota M7060,active,Nairobi,2.9,306.21,-1.14106,36.68554,184
+TR-044,OWN-005,Massey Ferguson 290,active,Embu,3.2,342.71,-0.47746,37.40884,149
+TR-045,OWN-006,New Holland TT75,active,Kiambu,3.5,184.86,-1.26165,36.89783,235
+TR-046,OWN-007,John Deere 5075E,idle,Machakos,3.8,200.26,-1.50925,37.20346,266
+TR-047,OWN-008,Kubota M7060,maintenance,Nakuru,4.1,196.76,-0.40056,35.83894,63
+TR-048,OWN-009,Massey Ferguson 290,active,Nairobi,2.0,206.61,-1.1604,36.88187,389
+TR-049,OWN-010,New Holland TT75,active,Embu,2.3,216.73,-0.65035,37.28953,376
+TR-050,OWN-011,John Deere 5075E,active,Kiambu,2.6,228.47,-1.17635,37.03323,107
+TR-051,OWN-012,Kubota M7060,active,Machakos,2.9,242.81,-1.502,37.18449,252
+TR-052,OWN-013,Massey Ferguson 290,idle,Nakuru,3.2,254.94,-0.45492,35.94275,151
+TR-053,OWN-014,New Holland TT75,maintenance,Nairobi,3.5,266.92,-1.56463,36.59022,138
+TR-054,OWN-015,John Deere 5075E,active,Embu,3.8,268.52,-0.74677,37.68407,309
+TR-055,OWN-016,Kubota M7060,active,Kiambu,4.1,296.7,-1.38968,36.9701,114
+TR-056,OWN-017,Massey Ferguson 290,active,Machakos,2.0,316.79,-1.26724,37.4191,159
+TR-057,OWN-018,New Holland TT75,active,Nakuru,2.3,326.35,-0.14643,36.30412,104
+TR-058,OWN-019,John Deere 5075E,idle,Nairobi,2.6,312.66,-1.39564,37.06773,268
+TR-059,OWN-020,Kubota M7060,maintenance,Embu,2.9,357.83,-0.51937,37.57607,269
+TR-060,OWN-001,Massey Ferguson 290,active,Kiambu,3.2,167.17,-1.24537,36.95812,259
+TR-061,OWN-002,New Holland TT75,active,Machakos,3.5,185.64,-1.33831,37.21426,259
+TR-062,OWN-003,John Deere 5075E,active,Nakuru,3.8,188.82,-0.08406,36.04368,354
+TR-063,OWN-004,Kubota M7060,active,Nairobi,4.1,225.73,-1.03884,36.83319,330
+TR-064,OWN-005,Massey Ferguson 290,idle,Embu,2.0,226.78,-0.32986,37.3368,22
+TR-065,OWN-006,New Holland TT75,maintenance,Kiambu,2.3,229.77,-1.18815,36.68984,72
+TR-066,OWN-007,John Deere 5075E,active,Machakos,2.6,261.9,-1.78134,37.01254,310
+TR-067,OWN-008,Kubota M7060,active,Nakuru,2.9,263.84,-0.38425,35.97975,60
+TR-068,OWN-009,Massey Ferguson 290,active,Nairobi,3.2,255.95,-1.44946,36.9581,348
+TR-069,OWN-010,New Holland TT75,active,Embu,3.5,296.0,-0.55297,37.2808,172
+TR-070,OWN-011,John Deere 5075E,idle,Kiambu,3.8,289.76,-1.22118,36.79837,372
+TR-071,OWN-012,Kubota M7060,maintenance,Machakos,4.1,318.67,-1.74261,37.1492,188
+TR-072,OWN-013,Massey Ferguson 290,active,Nakuru,2.0,296.95,-0.28044,35.90038,110
+TR-073,OWN-014,New Holland TT75,active,Nairobi,2.3,335.13,-1.19902,36.54522,38
+TR-074,OWN-015,John Deere 5075E,active,Embu,2.6,335.84,-0.59701,37.33804,240
+TR-075,OWN-016,Kubota M7060,active,Kiambu,2.9,177.48,-1.42475,36.85055,296
+TR-076,OWN-017,Massey Ferguson 290,idle,Machakos,3.2,193.63,-1.6412,37.41294,271
+TR-077,OWN-018,New Holland TT75,maintenance,Nakuru,3.5,209.98,-0.32526,36.09162,311
+TR-078,OWN-019,John Deere 5075E,active,Nairobi,3.8,190.31,-1.3703,37.06353,121
+TR-079,OWN-020,Kubota M7060,active,Embu,4.1,210.32,-0.27887,37.62167,283
+TR-080,OWN-001,Massey Ferguson 290,active,Kiambu,2.0,240.58,-0.90103,36.90067,261
+TR-081,OWN-002,New Holland TT75,active,Machakos,2.3,222.4,-1.63395,37.04753,287
+TR-082,OWN-003,John Deere 5075E,idle,Nakuru,2.6,248.86,-0.33173,36.18551,35
+TR-083,OWN-004,Kubota M7060,maintenance,Nairobi,2.9,253.33,-1.34441,37.02497,387
+TR-084,OWN-005,Massey Ferguson 290,active,Embu,3.2,290.24,-0.72799,37.5527,73
+TR-085,OWN-006,New Holland TT75,active,Kiambu,3.5,301.1,-1.08261,36.95701,162
+TR-086,OWN-007,John Deere 5075E,active,Machakos,3.8,296.7,-1.33528,37.44661,397
+TR-087,OWN-008,Kubota M7060,active,Nakuru,4.1,299.47,-0.33535,35.88151,85
+TR-088,OWN-009,Massey Ferguson 290,idle,Nairobi,2.0,330.05,-1.32078,36.96069,115
+TR-089,OWN-010,New Holland TT75,maintenance,Embu,2.3,331.67,-0.78981,37.65364,287
+TR-090,OWN-011,John Deere 5075E,active,Kiambu,2.6,153.89,-0.92725,36.9231,370
+TR-091,OWN-012,Kubota M7060,active,Machakos,2.9,201.05,-1.78876,37.2492,104
+TR-092,OWN-013,Massey Ferguson 290,active,Nakuru,3.2,199.43,-0.33559,35.93542,132
+TR-093,OWN-014,New Holland TT75,active,Nairobi,3.5,191.94,-1.2569,36.889,46
+TR-094,OWN-015,John Deere 5075E,idle,Embu,3.8,217.3,-0.65263,37.31852,315
+TR-095,OWN-016,Kubota M7060,maintenance,Kiambu,4.1,213.98,-1.15859,36.76718,43
+TR-096,OWN-017,Massey Ferguson 290,active,Machakos,2.0,256.77,-1.24705,37.50307,290
+TR-097,OWN-018,New Holland TT75,active,Nakuru,2.3,243.89,-0.45349,36.22302,263
+TR-098,OWN-019,John Deere 5075E,active,Nairobi,2.6,274.6,-1.40177,36.87045,202
+TR-099,OWN-020,Kubota M7060,active,Embu,2.9,258.53,-0.50552,37.44089,388
+TR-100,OWN-001,Massey Ferguson 290,idle,Kiambu,3.2,283.92,-1.43971,36.70535,127

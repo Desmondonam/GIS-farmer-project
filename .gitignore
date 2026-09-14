@@ -7,3 +7,8 @@ dist/
 .DS_Store
 coverage/
 .pytest_cache/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+*.egg-info/
+.ruff_cache/
