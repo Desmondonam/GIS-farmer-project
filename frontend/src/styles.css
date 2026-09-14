@@ -1,0 +1,263 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #e6f3ea;
+  background: #0b1f17;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0d201a 0%, #0b1713 100%);
+}
+
+body {
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 11px;
+  color: #8ad4a5;
+  margin: 0 0 8px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+.status-pill {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(68, 165, 96, 0.18);
+  border: 1px solid rgba(116, 245, 155, 0.35);
+  color: #b6f6c7;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.metric-card,
+.panel {
+  background: rgba(17, 41, 31, 0.9);
+  border: 1px solid rgba(148, 208, 171, 0.18);
+  border-radius: 18px;
+  padding: 20px 22px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.metric-highlight {
+  background: linear-gradient(135deg, rgba(31, 89, 62, 0.9), rgba(10, 31, 24, 0.95));
+}
+
+.metric-card span,
+.panel-header h2,
+.summary-row label {
+  color: #9bcfb2;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.metric-card strong {
+  display: block;
+  margin-top: 10px;
+  font-size: clamp(1.8rem, 2vw, 2.6rem);
+}
+
+.panel {
+  grid-column: span 1;
+}
+
+.panel-wide {
+  grid-column: span 2;
+}
+
+.panel-header {
+  margin-bottom: 12px;
+}
+
+.panel-header-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.panel-header h2 {
+  margin: 0;
+  font-size: 13px;
+}
+
+.panel-note {
+  color: #6f9d81;
+  font-size: 11px;
+}
+
+.summary-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.summary-row div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summary-row strong {
+  font-size: 1.5rem;
+}
+
+.list,
+.bullet-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li,
+.bullet-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(148, 208, 171, 0.12);
+}
+
+.list li:last-child,
+.bullet-list li:last-child {
+  border-bottom: none;
+}
+
+.list li > span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.list small {
+  color: #6f9d81;
+  font-size: 11px;
+}
+
+.bar-list {
+  display: grid;
+  gap: 16px;
+}
+
+.bar-row {
+  display: grid;
+  gap: 7px;
+}
+
+.bar-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.bar-label strong {
+  color: #b6f6c7;
+  font-size: 13px;
+}
+
+.bar-track {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(148, 208, 171, 0.12);
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #72d28e, #d4e47b);
+}
+
+.pipeline-status {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.pipeline-status.success {
+  color: #b6f6c7;
+}
+
+.pipeline-status.running {
+  color: #f3d98b;
+}
+
+.bullet-list {
+  list-style: disc;
+  padding-left: 18px;
+}
+
+.bullet-list li {
+  display: list-item;
+  border-bottom: none;
+  padding: 6px 0;
+}
+
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .panel-wide {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-shell {
+    padding: 20px 16px 32px;
+  }
+
+  .dashboard-grid,
+  .summary-row {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-wide {
+    grid-column: span 1;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

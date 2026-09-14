@@ -1,0 +1,58 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    container_name: agri-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-agri_db}
+      POSTGRES_USER: ${POSTGRES_USER:-agri_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-agri_password}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+    container_name: agri-backend
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      POSTGRES_DB: ${POSTGRES_DB:-agri_db}
+      POSTGRES_USER: ${POSTGRES_USER:-agri_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-agri_password}
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: ${POSTGRES_PORT:-5432}
+      DEMO_MODE: ${DEMO_MODE:-true}
+      LIVE_DATA_MODE: ${LIVE_DATA_MODE:-false}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+      - ./data:/data
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: agri-frontend
+    environment:
+      VITE_API_BASE_URL: http://localhost:8000
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+volumes:
+  postgres_data:

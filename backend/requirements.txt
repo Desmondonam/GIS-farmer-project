@@ -1,0 +1,7 @@
+fastapi==0.100.1
+uvicorn[standard]==0.29.0
+pydantic==1.10.20
+python-dotenv==1.0.1
+psycopg==3.3.5
+geojson==3.1.0
+python-multipart==0.0.9
